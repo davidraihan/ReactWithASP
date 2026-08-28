@@ -12,20 +12,20 @@ Aplikasi E-Commerce Single Page Application (SPA) modern yang dibangun menggunak
 
 ---
 
-## 🌟 Fitur Utama
+## Fitur Utama
 
 ### 🛒 1. Public Storefront (Pengunjung & Pelanggan)
 - **Katalog Produk Dinamis**: Pencarian produk instan, pencarian kata kunci, serta filter kategori (Pakaian & Fashion, Elektronik & Gadget, Sepatu & Aksesoris, Kecantikan & Masker).
 - **Keranjang Belanja (*Shopping Cart Sheet*)**: Penambahan barang ke keranjang, pengaturan kuantitas, kalkulasi total biaya otomatis, dan *simulasi checkout*.
 - **Voucher Promo & Diskon**: Banner promosi serta kode diskon spesial pengguna baru.
 
-### 📊 2. Admin E-Commerce Dashboard (Admin)
+### 2. Admin E-Commerce Dashboard (Admin)
 - **Overview Analytics**: Grafik statistik pendapatan bulanan, jumlah pesanan, produk terjual, serta peringatan stok produk kritis.
 - **Katalog & Stok Produk**: Manajemen daftar produk, penambahan produk baru, dan pembaruan stok.
 - **Manajemen Pesanan (*Orders*)**: Monitoring status pembayaran (*paid, pending, failed*) dan alur pengiriman (*processing, shipped, delivered, cancelled*).
 - **Data Pelanggan & Kupon**: Pengelolaan basis data pelanggan dan pembuatan kode kupon promo.
 
-### 🔐 3. Autentikasi & Otorisasi Berbasis Peran (*Role-Based Auth*)
+### 3. Autentikasi & Otorisasi Berbasis Peran (*Role-Based Auth*)
 - **Login & Registrasi Pengguna**: Form masuk & daftar akun terintegrasi dengan endpoint `/api/auth/login` dan `/api/auth/register`.
 - **Pengalihan Peran Otomatis**:
   - Akun **Admin** (`role: ['admin']`): Otomatis masuk ke **Dashboard Admin E-Commerce**.
@@ -33,13 +33,13 @@ Aplikasi E-Commerce Single Page Application (SPA) modern yang dibangun menggunak
 - **Keamanan Token JWT**: Autentikasi berbasis JWT Bearer Token dengan rotasi Refresh Token otomatis dan penyimpanan aman.
 - **Route Protection**: Perlindungan rute admin agar tidak bisa diakses oleh pelanggan biasa atau tamu tanpa izin.
 
-### ⚡ 4. Navigasi Dinamis SPA (Zero Page Reload)
+### 4. Navigasi Dinamis SPA (Zero Page Reload)
 - Perpindahan antarhalaman dan rute menggunakan **HTML5 History API** (`pushState`) dan **TanStack Router**, sehingga pengguna dapat berpindah tampilan secara instan tanpa memuat ulang (*refresh*) browser.
 - Mendukung sinkronisasi parameter URL (`?view=admin`, `?view=public`, `?tab=products`) sehingga fitur *Back/Forward* browser berfungsi dengan sempurna.
 
 ---
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```text
 ReactWithASP/
@@ -82,7 +82,7 @@ ReactWithASP/
 
 ---
 
-## 🔑 Kredensial Default Admin
+## Kredensial Default Admin
 
 Gunakan akun berikut untuk menguji login sebagai **Admin**:
 
@@ -104,7 +104,7 @@ Sebelum menjalankan proyek ini, pastikan sistem Anda telah terinstal:
 
 ---
 
-## 🚀 Panduan Memulai & Cara Jalankan
+## Panduan Memulai & Cara Jalankan
 
 ### 1. Menjalankan Backend (ASP.NET Core API)
 
@@ -147,7 +147,7 @@ Sebelum menjalankan proyek ini, pastikan sistem Anda telah terinstal:
 
 ---
 
-## 🧪 Perintah Build & Testing
+## Perintah Build & Testing
 
 ### Build Produksi Frontend
 Untuk melakukan verifikasi tipe TypeScript dan kompilasi bundle Vite:
@@ -171,4 +171,4 @@ dotnet build
 ---
 
 ## 📄 Lisensi
-Hak Cipta © 2026 Toko Serba Ada Platform. Dibuat dengan React 19 & ASP.NET Core 10.
+MIT
