@@ -2,8 +2,7 @@ import { useState, useEffect } from 'react'
 import { useAuthStore } from '@/stores/auth-store'
 import { EcommerceAdminLayout } from '@/features/ecommerce/ecommerce-admin-layout'
 import { PublicStorefront } from '@/features/ecommerce/public-storefront'
-import { LoginForm } from '@/components/LoginForm'
-import { RegisterForm } from '@/components/RegisterForm'
+import { AuthPage } from '@/components/AuthPage'
 import { Toaster } from '@/components/ui/sonner'
 import { toast } from 'sonner'
 
@@ -135,35 +134,14 @@ export default function App() {
         return <EcommerceAdminLayout />
 
       case 'login':
-        return (
-          <div className="min-h-screen bg-slate-100 flex flex-col items-center justify-center p-4">
-            <button
-              onClick={() => navigateToView('public')}
-              className="mb-4 text-xs font-semibold text-slate-500 hover:text-slate-800 transition-colors"
-            >
-              ← Kembali ke Halaman Toko
-            </button>
-            <LoginForm
-              onSuccess={handleLoginSuccess}
-              onSwitchToRegister={() => navigateToView('register')}
-            />
-          </div>
-        )
-
       case 'register':
         return (
-          <div className="min-h-screen bg-slate-100 flex flex-col items-center justify-center p-4">
-            <button
-              onClick={() => navigateToView('public')}
-              className="mb-4 text-xs font-semibold text-slate-500 hover:text-slate-800 transition-colors"
-            >
-              ← Kembali ke Halaman Toko
-            </button>
-            <RegisterForm
-              onSwitchToLogin={() => navigateToView('login')}
-              onRegisterSuccess={handleRegisterSuccess}
-            />
-          </div>
+          <AuthPage
+            initialTab={viewMode === 'register' ? 'register' : 'login'}
+            onLoginSuccess={handleLoginSuccess}
+            onRegisterSuccess={handleRegisterSuccess}
+            onNavigateToPublic={() => navigateToView('public')}
+          />
         )
 
       case 'public':

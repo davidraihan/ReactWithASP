@@ -334,7 +334,7 @@ export function PublicStorefront({
                 <Button
                   onClick={onNavigateToRegister}
                   variant="outline"
-                  className="border-white/40 text-white hover:bg-white/10 font-medium"
+                  className="border-white/40 text-blue-700 hover:bg-white/10 hover:text-white font-medium"
                 >
                   Dapatkan Kupon Diskon
                 </Button>
