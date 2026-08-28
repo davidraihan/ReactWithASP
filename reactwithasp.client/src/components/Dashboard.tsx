@@ -26,7 +26,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ sessionData, onLogout }) =
   };
 
     return (
-    <div className="bg-white w-full max-w-[480px] rounded-xl ambient-shadow p-6 sm:p-[40px] text-center">
+    <div className="bg-white w-full max-w-120 rounded-xl ambient-shadow p-6 sm:p-10 text-center">
 
       <div className="w-16 h-16 bg-[#3B82F6]/10 text-[#3B82F6] rounded-full flex items-center justify-center mx-auto mb-4">
         <span className="material-symbols-outlined text-[32px]">check_circle</span>
