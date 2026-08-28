@@ -1,0 +1,441 @@
+ ❯ src/components/config-drawer.test.tsx (0 test)
+ ❯ src/features/tasks/components/tasks-mutate-drawer.test.tsx (0 test)
+
+ ❯ src/components/config-drawer.test.tsx [queued]
+ ❯ src/components/confirm-dialog.test.tsx [queued]
+ ❯ src/hooks/use-table-url-state.test.ts (0 test)
+ ❯ src/features/users/components/users-action-dialog.test.tsx (0 test)
+ ❯ src/features/users/components/users-delete-dialog.test.tsx (0 test)
+
+ ❯ src/components/config-drawer.test.tsx [queued]
+ ❯ src/components/confirm-dialog.test.tsx [queued]
+ ❯ src/components/confirm-dialog.test.tsx (0 test)
+
+ ❯ src/features/users/components/users-invite-dialog.test.tsx (0 test)
+
+ ❯ src/features/tasks/components/tasks-multi-delete-dialog.test.tsx (0 test)
+ ❯ src/features/users/components/users-multi-delete-dialog.test.tsx (0 test)
+ ❯ src/context/search-provider.test.tsx (0 test)
+ ❯ src/features/auth/sign-in/components/user-auth-form.test.tsx (0 test)
+ ❯ src/features/tasks/components/tasks-import-dialog.test.tsx (0 test)
+ ❯ src/components/password-input.test.tsx (0 test)
+ ❯ src/features/auth/sign-up/components/sign-up-form.test.tsx (0 test)
+ ❯ src/stores/auth-store.test.ts (0 test)
+ ❯ src/features/auth/otp/components/otp-form.test.tsx (0 test)
+ ❯ src/features/auth/forgot-password/components/forgot-password-form.test.tsx (0 test)
+ ❯ src/components/sign-out-dialog.test.tsx (0 test)
+ ✓ src/lib/utils.test.ts (5 tests) 6ms
+stdout | src/lib/handle-server-error.test.ts > handleServerError > shows a generic message when the error is not recognised
+Error: network
+    at C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/lib/handle-server-error.test.ts:19:23
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:302:11
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:1903:26
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2323:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2272:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2956:64
+
+stdout | src/lib/handle-server-error.test.ts > handleServerError > maps a plain object with status 204 to the no-content message
+{ status: 204 }
+
+stdout | src/lib/handle-server-error.test.ts > handleServerError > prefers the API title when the error is an Axios error with response data
+AxiosError: Bad request
+    at C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/lib/handle-server-error.test.ts:31:19
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:302:11
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:1903:26
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2323:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2272:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2956:64 {
+  isAxiosError: true,
+  response: { status: 422, data: { title: 'Validation failed' } }
+}
+
+stdout | src/lib/handle-server-error.test.ts > handleServerError > falls back to the generic message when Axios response has no data.title
+AxiosError: Request failed
+    at C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/lib/handle-server-error.test.ts:43:19
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:302:11
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:1903:26
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2323:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2272:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2956:64 {
+  isAxiosError: true,
+  response: { status: 500, data: {} }
+}
+
+stdout | src/lib/handle-server-error.test.ts > handleServerError > falls back to the generic message when Axios data.title is an empty string
+AxiosError: Bad request
+    at C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/lib/handle-server-error.test.ts:55:19
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:302:11
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:1903:26
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2326:20
+    at new Promise (<anonymous>)
+    at runWithCancel (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2323:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2305:20
+    at new Promise (<anonymous>)
+    at runWithTimeout (file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2272:10)
+    at file:///C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/node_modules/@vitest/runner/dist/chunk-artifact.js:2956:64 {
+  isAxiosError: true,
+  response: { status: 400, data: { title: '' } }
+}
+
+ ✓ src/lib/handle-server-error.test.ts (7 tests) 13ms
+ ❯ src/lib/cookies.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯ Failed Suites 19 ⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/components/config-drawer.test.tsx [ src/components/config-drawer.test.tsx ]
+Error: Failed to resolve import "@/components/ui/sidebar" from "src/components/config-drawer.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/components/config-drawer.test.tsx:9:32
+  7  |  import { LayoutProvider } from "@/context/layout-provider";
+  8  |  import { ThemeProvider } from "@/context/theme-provider";
+  9  |  import { SidebarProvider } from "@/components/ui/sidebar";
+     |                                   ^
+  10 |  import { ConfigDrawer } from "./config-drawer";
+  11 |  var _jsxFileName = "C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/components/config-drawer.te...
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/19]⎯
+
+ FAIL  src/components/confirm-dialog.test.tsx [ src/components/confirm-dialog.test.tsx ]
+Error: vitest/browser can be imported only inside the Browser Mode. Your test is running in forks pool. Make sure your regular tests are excluded from the "test.include" glob pattern.
+ ❯ node_modules/vitest/browser/context.js:14:7
+ ❯ src/components/confirm-dialog.test.tsx:3:1
+      1| import type { SubmitEvent } from 'react'
+      2| import { describe, expect, it, vi } from 'vitest'
+      3| import { render } from 'vitest-browser-react'
+       | ^
+      4| import { userEvent } from 'vitest/browser'
+      5| import { ConfirmDialog } from './confirm-dialog'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/19]⎯
+
+ FAIL  src/components/password-input.test.tsx [ src/components/password-input.test.tsx ]
+Error: Failed to resolve import "@/components/ui/form" from "src/components/password-input.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/components/password-input.test.tsx:11:7
+  3  |  import { render } from "vitest-browser-react";
+  4  |  import { userEvent } from "vitest/browser";
+  5  |  import { Form, FormControl, FormField, FormItem, FormLabel } from "@/components/ui/form";
+     |                                                                     ^
+  6  |  import { PasswordInput } from "./password-input";
+  7  |  var _jsxFileName = "C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/components/password-input.t...
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/19]⎯
+
+ FAIL  src/components/sign-out-dialog.test.tsx [ src/components/sign-out-dialog.test.tsx ]
+Error: vitest/browser can be imported only inside the Browser Mode. Your test is running in forks pool. Make sure your regular tests are excluded from the "test.include" glob pattern.
+ ❯ node_modules/vitest/browser/context.js:14:7
+ ❯ src/components/sign-out-dialog.test.tsx:2:1
+      1| import { beforeEach, describe, expect, it, vi } from 'vitest'
+      2| import { render } from 'vitest-browser-react'
+       | ^
+      3| import { userEvent } from 'vitest/browser'
+      4| import { SignOutDialog } from './sign-out-dialog'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[4/19]⎯
+
+ FAIL  src/context/search-provider.test.tsx [ src/context/search-provider.test.tsx ]
+Error: Failed to resolve import "@/context/search-provider" from "src/context/search-provider.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/context/search-provider.test.tsx:4:0
+  13 |  const __vi_import_0__ = await import("vitest-browser-react");
+  14 |  const __vi_import_1__ = await import("vitest/browser");
+  15 |  const __vi_import_2__ = await import("@/context/search-provider");
+     |                                       ^
+  16 |  const __vi_import_3__ = await import("react/jsx-dev-runtime");
+  17 |  import { beforeEach, describe, expect, it, vi } from "vitest";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[5/19]⎯
+
+ FAIL  src/hooks/use-table-url-state.test.ts [ src/hooks/use-table-url-state.test.ts ]
+Error: Failed to resolve import "@/hooks/use-table-url-state" from "src/hooks/use-table-url-state.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/hooks/use-table-url-state.test.ts:3:50
+  1  |  import { describe, expect, it, vi } from "vitest";
+  2  |  import { renderHook } from "vitest-browser-react";
+  3  |  import { useTableUrlState } from "@/hooks/use-table-url-state";
+     |                                    ^
+  4  |  function lastNavigateOpts(navigate) {
+  5  |          const calls = navigate.mock.calls;
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[6/19]⎯
+
+ FAIL  src/lib/cookies.test.ts [ src/lib/cookies.test.ts ]
+Error: Failed to resolve import "@/test-utils/cookies" from "src/lib/cookies.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/lib/cookies.test.ts:1:29
+  1  |  import { clearCookies } from "@/test-utils/cookies";
+     |                                ^
+  2  |  import { beforeEach, describe, expect, it } from "vitest";
+  3  |  import { getCookie, removeCookie, setCookie } from "./cookies";
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[7/19]⎯
+
+ FAIL  src/stores/auth-store.test.ts [ src/stores/auth-store.test.ts ]
+Error: Failed to resolve import "@/test-utils/cookies" from "src/stores/auth-store.test.ts". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/stores/auth-store.test.ts:1:29
+  1  |  import { clearCookies } from "@/test-utils/cookies";
+     |                                ^
+  2  |  import { beforeEach, describe, expect, it, vi } from "vitest";
+  3  |  async function importAuthStore() {
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[8/19]⎯
+
+ FAIL  src/features/tasks/components/tasks-import-dialog.test.tsx [ src/features/tasks/components/tasks-import-dialog.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/tasks/components/tasks-import-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/tasks/components/tasks-import-dialog.test.tsx:5:0
+  3  |  const __vi_import_1__ = await import("vitest-browser-react");
+  4  |  const __vi_import_2__ = await import("vitest/browser");
+  5  |  const __vi_import_3__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  6  |  const __vi_import_4__ = await import("./tasks-import-dialog");
+  7  |  const __vi_import_5__ = await import("react/jsx-dev-runtime");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[9/19]⎯
+
+ FAIL  src/features/tasks/components/tasks-multi-delete-dialog.test.tsx [ src/features/tasks/components/tasks-multi-delete-dialog.test.tsx ]
+Error: Failed to resolve import "@/test-utils/tanstack-table" from "src/features/tasks/components/tasks-multi-delete-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/tasks/components/tasks-multi-delete-dialog.test.tsx:2:0
+  4  |  }));
+  5  |  const __vi_import_0__ = await import("react");
+  6  |  const __vi_import_1__ = await import("@/test-utils/tanstack-table");
+     |                                       ^
+  7  |  const __vi_import_2__ = await import("vitest-browser-react");
+  8  |  const __vi_import_3__ = await import("vitest/browser");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[10/19]⎯
+
+ FAIL  src/features/tasks/components/tasks-mutate-drawer.test.tsx [ src/features/tasks/components/tasks-mutate-drawer.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/tasks/components/tasks-mutate-drawer.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/tasks/components/tasks-mutate-drawer.test.tsx:5:0
+  3  |  const __vi_import_1__ = await import("vitest-browser-react");
+  4  |  const __vi_import_2__ = await import("vitest/browser");
+  5  |  const __vi_import_3__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  6  |  const __vi_import_4__ = await import("../data/schema");
+  7  |  const __vi_import_5__ = await import("./tasks-mutate-drawer");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[11/19]⎯
+
+ FAIL  src/features/users/components/users-action-dialog.test.tsx [ src/features/users/components/users-action-dialog.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/users/components/users-action-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/users/components/users-action-dialog.test.tsx:4:0
+  2  |  const __vi_import_0__ = await import("vitest-browser-react");
+  3  |  const __vi_import_1__ = await import("vitest/browser");
+  4  |  const __vi_import_2__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  5  |  const __vi_import_3__ = await import("../data/schema");
+  6  |  const __vi_import_4__ = await import("./users-action-dialog");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[12/19]⎯
+
+ FAIL  src/features/users/components/users-delete-dialog.test.tsx [ src/features/users/components/users-delete-dialog.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/users/components/users-delete-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/users/components/users-delete-dialog.test.tsx:5:0
+  3  |  const __vi_import_1__ = await import("vitest-browser-react");
+  4  |  const __vi_import_2__ = await import("vitest/browser");
+  5  |  const __vi_import_3__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  6  |  const __vi_import_4__ = await import("../data/schema");
+  7  |  const __vi_import_5__ = await import("./users-delete-dialog");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[13/19]⎯
+
+ FAIL  src/features/users/components/users-invite-dialog.test.tsx [ src/features/users/components/users-invite-dialog.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/users/components/users-invite-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/users/components/users-invite-dialog.test.tsx:5:0
+  3  |  const __vi_import_1__ = await import("vitest-browser-react");
+  4  |  const __vi_import_2__ = await import("vitest/browser");
+  5  |  const __vi_import_3__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  6  |  const __vi_import_4__ = await import("./users-invite-dialog");
+  7  |  const __vi_import_5__ = await import("react/jsx-dev-runtime");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[14/19]⎯
+
+ FAIL  src/features/users/components/users-multi-delete-dialog.test.tsx [ src/features/users/components/users-multi-delete-dialog.test.tsx ]
+Error: Failed to resolve import "@/test-utils/tanstack-table" from "src/features/users/components/users-multi-delete-dialog.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/users/components/users-multi-delete-dialog.test.tsx:2:0
+  4  |  }));
+  5  |  const __vi_import_0__ = await import("react");
+  6  |  const __vi_import_1__ = await import("@/test-utils/tanstack-table");
+     |                                       ^
+  7  |  const __vi_import_2__ = await import("vitest-browser-react");
+  8  |  const __vi_import_3__ = await import("vitest/browser");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[15/19]⎯
+
+ FAIL  src/features/auth/forgot-password/components/forgot-password-form.test.tsx [ src/features/auth/forgot-password/components/forgot-password-form.test.tsx ]
+Error: vitest/browser can be imported only inside the Browser Mode. Your test is running in forks pool. Make sure your regular tests are excluded from the "test.include" glob pattern.
+ ❯ node_modules/vitest/browser/context.js:14:7
+ ❯ src/features/auth/forgot-password/components/forgot-password-form.test.tsx:2:1
+      1| import { beforeEach, describe, expect, it, vi } from 'vitest'
+      2| import { render, type RenderResult } from 'vitest-browser-react'
+       | ^
+      3| import { userEvent, type Locator } from 'vitest/browser'
+      4| import { ForgotPasswordForm } from './forgot-password-form'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[16/19]⎯
+
+ FAIL  src/features/auth/sign-in/components/user-auth-form.test.tsx [ src/features/auth/sign-in/components/user-auth-form.test.tsx ]
+Error: vitest/browser can be imported only inside the Browser Mode. Your test is running in forks pool. Make sure your regular tests are excluded from the "test.include" glob pattern.
+ ❯ node_modules/vitest/browser/context.js:14:7
+ ❯ src/features/auth/sign-in/components/user-auth-form.test.tsx:2:1
+      1| import { beforeEach, describe, expect, it, vi } from 'vitest'
+      2| import { render, type RenderResult } from 'vitest-browser-react'
+       | ^
+      3| import { type Locator, userEvent } from 'vitest/browser'
+      4| import { UserAuthForm } from './user-auth-form'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[17/19]⎯
+
+ FAIL  src/features/auth/sign-up/components/sign-up-form.test.tsx [ src/features/auth/sign-up/components/sign-up-form.test.tsx ]
+Error: vitest/browser can be imported only inside the Browser Mode. Your test is running in forks pool. Make sure your regular tests are excluded from the "test.include" glob pattern.
+ ❯ node_modules/vitest/browser/context.js:14:7
+ ❯ src/features/auth/sign-up/components/sign-up-form.test.tsx:2:1
+      1| import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+      2| import { render, type RenderResult } from 'vitest-browser-react'
+       | ^
+      3| import { type Locator, userEvent } from 'vitest/browser'
+      4| import { SignUpForm } from './sign-up-form'
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[18/19]⎯
+
+ FAIL  src/features/auth/otp/components/otp-form.test.tsx [ src/features/auth/otp/components/otp-form.test.tsx ]
+Error: Failed to resolve import "@/lib/show-submitted-data" from "src/features/auth/otp/components/otp-form.test.tsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/Dvid/WebProject/ASP.NET/ReactWithASP/reactwithasp.client/src/features/auth/otp/components/otp-form.test.tsx:4:0
+  9  |  const __vi_import_0__ = await import("vitest-browser-react");
+  10 |  const __vi_import_1__ = await import("vitest/browser");
+  11 |  const __vi_import_2__ = await import("@/lib/show-submitted-data");
+     |                                       ^
+  12 |  const __vi_import_3__ = await import("./otp-form");
+  13 |  const __vi_import_4__ = await import("react/jsx-dev-runtime");
+ ❯ TransformPluginContext._formatLog node_modules/vite/dist/node/chunks/node.js:31147:39
+ ❯ TransformPluginContext.error node_modules/vite/dist/node/chunks/node.js:31144:14
+ ❯ normalizeUrl node_modules/vite/dist/node/chunks/node.js:28083:18
+ ❯ node_modules/vite/dist/node/chunks/node.js:28153:30
+ ❯ TransformPluginContext.transform node_modules/vite/dist/node/chunks/node.js:28119:4
+ ❯ EnvironmentPluginContainer.transform node_modules/vite/dist/node/chunks/node.js:30932:14
+ ❯ loadAndTransform node_modules/vite/dist/node/chunks/node.js:20671:26
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[19/19]⎯
+
+
+ Test Files  19 failed | 2 passed (21)
+      Tests  12 passed (12)
+   Start at  06:48:31
+   Duration  36.46s (transform 607ms, setup 0ms, import 3.50s, tests 19ms, environment 189.95s)
+
+ FAIL  Tests failed. Watching for file changes...
+       press h to show help, press q to quit
