@@ -14,7 +14,7 @@ Aplikasi E-Commerce Single Page Application (SPA) modern yang dibangun menggunak
 
 ## Fitur Utama
 
-### 🛒 1. Public Storefront (Pengunjung & Pelanggan)
+### 1. Public Storefront (Pengunjung & Pelanggan)
 - **Katalog Produk Dinamis**: Pencarian produk instan, pencarian kata kunci, serta filter kategori (Pakaian & Fashion, Elektronik & Gadget, Sepatu & Aksesoris, Kecantikan & Masker).
 - **Keranjang Belanja (*Shopping Cart Sheet*)**: Penambahan barang ke keranjang, pengaturan kuantitas, kalkulasi total biaya otomatis, dan *simulasi checkout*.
 - **Voucher Promo & Diskon**: Banner promosi serta kode diskon spesial pengguna baru.
@@ -94,7 +94,7 @@ Gunakan akun berikut untuk menguji login sebagai **Admin**:
 
 ---
 
-## 🛠️ Persyaratan Sistem (Prerequisites)
+## Persyaratan Sistem (Prerequisites)
 
 Sebelum menjalankan proyek ini, pastikan sistem Anda telah terinstal:
 - **Node.js**: `v18.0.0` atau yang lebih baru
@@ -170,7 +170,7 @@ dotnet build
 
 ---
 
-## 📄 Lisensi
+## Lisensi
 MIT
 
 # System Architecture Documentation: ReactWithASP
